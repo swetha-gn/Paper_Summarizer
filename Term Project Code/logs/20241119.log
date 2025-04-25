@@ -1,0 +1,150 @@
+2024-11-19 20:14:44 - __main__ - INFO - Initializing Research Assistant...
+2024-11-19 20:14:45 - models.vector_store - INFO - Creating new FAISS index
+2024-11-19 20:14:46 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-19 20:14:46 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-19 20:14:46 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-19 20:14:46 - __main__ - INFO - Research Assistant initialized
+2024-11-19 20:16:18 - __main__ - INFO - Processing research query: My area of interest is Sensor-Based Prediction of Mental Effort during Learning from Physiological Data
+2024-11-19 20:16:18 - __main__ - INFO - Found 1 similar papers
+2024-11-19 20:16:18 - __main__ - INFO - Downloading additional papers...
+2024-11-19 20:16:19 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 2410.00020v1.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 2212.09839v1.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 2002.09283v3.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 2207.05820v1.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 1809.04777v1.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 2403.14814v3.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 9505374v1.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 1504.03343v2.pdf
+2024-11-19 20:16:20 - modules.paper_downloader - INFO - Successfully downloaded: 2102.02729v4.pdf
+2024-11-19 20:16:21 - modules.paper_downloader - INFO - Successfully downloaded: 2208.03621v1.pdf
+2024-11-19 20:16:21 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-11-19 20:16:21 - __main__ - INFO - Downloaded 10 new papers
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Processing paper: 2002.09283v3.pdf
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2002.09283v3_processed.txt
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Processing paper: 2208.03621v1.pdf
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2208.03621v1_processed.txt
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Processing paper: 2403.14814v3.pdf
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2403.14814v3_processed.txt
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Processing paper: 9505374v1.pdf
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\9505374v1_processed.txt
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Processing paper: 2207.05820v1.pdf
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2207.05820v1_processed.txt
+2024-11-19 20:16:21 - modules.pdf_processor - INFO - Processing paper: 1504.03343v2.pdf
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1504.03343v2_processed.txt
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Processing paper: 2212.09839v1.pdf
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2212.09839v1_processed.txt
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Processing paper: 2102.02729v4.pdf
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2102.02729v4_processed.txt
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Processing paper: 2410.00020v1.pdf
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.00020v1_processed.txt
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Processing paper: 1809.04777v1.pdf
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1809.04777v1_processed.txt
+2024-11-19 20:16:22 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-11-19 20:16:22 - __main__ - INFO - Processed 10 papers
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 1/10: MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 1/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 2/10: Bias Reducing Multitask Learning on Mental Health Prediction
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 2/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 3/10: The opportunities and risks of large language models in mental health
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 3/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 4/10: Theory of Brain Function, Quantum Mechanics and Superstrings
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 4/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 5/10: Exploiting Social Graph Networks for Emotion Prediction
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 5/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 6/10: Quantization of mental stress using various physiological markers
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 6/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 7/10: Exploring Hybrid and Ensemble Models for Multiclass Prediction of Mental Health Status on Social Media
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 7/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 8/10: Adversarial Attacks and Defenses in Physiological Computing: A Systematic Review
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 8/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 9/10: Loneliness Forecasting Using Multi-modal Wearable and Mobile Sensing in Everyday Settings
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 9/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Processing paper 10/10: Perceptual Experience Analysis for Tone-mapped HDR Videos based on EEG and Peripheral Physiological Signals
+2024-11-19 20:16:22 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-19 20:16:22 - modules.paper_summarizer - WARNING - No summaries generated for paper 10/10
+2024-11-19 20:16:22 - modules.paper_summarizer - INFO - Successfully processed 0 out of 10 papers
+2024-11-19 20:16:22 - __main__ - INFO - Generated summaries for 0 papers
+2024-11-19 20:16:29 - __main__ - INFO - Generated research response
+2024-11-19 20:19:28 - __main__ - INFO - Initializing Research Assistant...
+2024-11-19 20:19:28 - models.vector_store - INFO - Creating new FAISS index
+2024-11-19 20:19:29 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-19 20:19:29 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-19 20:19:29 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-19 20:19:29 - __main__ - INFO - Research Assistant initialized
+2024-11-19 20:19:38 - __main__ - INFO - Processing research query: Sensor-Based Prediction of Mental Effort during Learning from Physiological Data
+2024-11-19 20:19:38 - __main__ - INFO - Found 1 similar papers
+2024-11-19 20:19:38 - __main__ - INFO - Downloading additional papers...
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Paper already exists: 2002.09283v3.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Paper already exists: 2208.03621v1.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Paper already exists: 2207.05820v1.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Paper already exists: 1504.03343v2.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Paper already exists: 2410.00020v1.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Successfully downloaded: 1505.07940v1.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Successfully downloaded: 2402.10862v2.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Successfully downloaded: 2408.14453v1.pdf
+2024-11-19 20:19:39 - modules.paper_downloader - INFO - Successfully downloaded: 2307.04777v1.pdf
+2024-11-19 20:19:40 - modules.paper_downloader - INFO - Successfully downloaded: 2201.11230v1.pdf
+2024-11-19 20:19:40 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-11-19 20:19:40 - __main__ - INFO - Downloaded 10 new papers
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2002.09283v3.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2002.09283v3_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2208.03621v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2208.03621v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2207.05820v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2207.05820v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 1505.07940v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1505.07940v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2201.11230v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2201.11230v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 1504.03343v2.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1504.03343v2_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2410.00020v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.00020v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2402.10862v2.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2402.10862v2_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2307.04777v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2307.04777v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Processing paper: 2408.14453v1.pdf
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2408.14453v1_processed.txt
+2024-11-19 20:19:40 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-11-19 20:19:40 - __main__ - INFO - Processed 10 papers
+2024-11-19 20:19:40 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-11-19 20:19:40 - modules.paper_summarizer - INFO - Processing paper 1/10: MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis
+2024-11-19 20:19:46 - modules.paper_summarizer - INFO - Successfully processed paper 1/10
+2024-11-19 20:19:46 - modules.paper_summarizer - INFO - Processing paper 2/10: Bias Reducing Multitask Learning on Mental Health Prediction
+2024-11-19 20:20:04 - modules.paper_summarizer - INFO - Successfully processed paper 2/10
+2024-11-19 20:20:04 - modules.paper_summarizer - INFO - Processing paper 3/10: Exploiting Social Graph Networks for Emotion Prediction
+2024-11-19 20:20:20 - modules.paper_summarizer - INFO - Successfully processed paper 3/10
+2024-11-19 20:20:20 - modules.paper_summarizer - INFO - Processing paper 4/10: Continuous Mental Effort Evaluation during 3D Object Manipulation Tasks based on Brain and Physiological Signals
+2024-11-19 20:20:29 - modules.paper_summarizer - INFO - Successfully processed paper 4/10
+2024-11-19 20:20:29 - modules.paper_summarizer - INFO - Processing paper 5/10: Objective Prediction of Tomorrow's Affect Using Multi-Modal Physiological Data and Personal Chronicles: A Study of Monitoring College Student Well-being in 2020
+2024-11-19 20:20:39 - modules.paper_summarizer - INFO - Successfully processed paper 5/10
+2024-11-19 20:20:39 - modules.paper_summarizer - INFO - Processing paper 6/10: Quantization of mental stress using various physiological markers
+2024-11-19 20:20:51 - modules.paper_summarizer - INFO - Successfully processed paper 6/10
+2024-11-19 20:20:51 - modules.paper_summarizer - INFO - Processing paper 7/10: Loneliness Forecasting Using Multi-modal Wearable and Mobile Sensing in Everyday Settings
+2024-11-19 20:20:58 - modules.paper_summarizer - INFO - Successfully processed paper 7/10
+2024-11-19 20:20:58 - modules.paper_summarizer - INFO - Processing paper 8/10: Differential Private Federated Transfer Learning for Mental Health Monitoring in Everyday Settings: A Case Study on Stress Detection
+2024-11-19 20:21:06 - modules.paper_summarizer - INFO - Successfully processed paper 8/10
+2024-11-19 20:21:06 - modules.paper_summarizer - INFO - Processing paper 9/10: MentalHealthAI: Utilizing Personal Health Device Data to Optimize Psychiatry Treatment
+2024-11-19 20:21:23 - modules.paper_summarizer - INFO - Successfully processed paper 9/10
+2024-11-19 20:21:23 - modules.paper_summarizer - INFO - Processing paper 10/10: Reconstructing physiological signals from fMRI across the adult lifespan
+2024-11-19 20:21:40 - modules.paper_summarizer - INFO - Successfully processed paper 10/10
+2024-11-19 20:21:40 - modules.paper_summarizer - INFO - Successfully processed 10 out of 10 papers
+2024-11-19 20:21:40 - __main__ - INFO - Generated summaries for 10 papers
+2024-11-19 20:21:40 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\vector_store\faiss_index
+2024-11-19 20:21:40 - models.vector_store - INFO - Successfully stored 4 documents
+2024-11-19 20:21:40 - __main__ - INFO - Stored documents in vector store
+2024-11-19 20:21:41 - __main__ - INFO - Found 5 papers after update
+2024-11-19 20:21:49 - __main__ - INFO - Generated research response

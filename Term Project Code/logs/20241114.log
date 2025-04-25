@@ -1,0 +1,322 @@
+2024-11-14 21:33:46 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 21:33:46 - models.vector_store - INFO - Using existing collection: research_papers
+2024-11-14 21:33:46 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-14 21:33:46 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-14 21:33:46 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-14 21:33:46 - __main__ - INFO - Research Assistant initialized
+2024-11-14 21:34:05 - __main__ - INFO - Processing research query: I'd like to know about the transational invariance in computer vision
+2024-11-14 21:34:06 - __main__ - INFO - Generated query embedding
+2024-11-14 21:34:06 - __main__ - INFO - Found 0 similar papers
+2024-11-14 21:34:06 - __main__ - INFO - Downloading additional papers...
+2024-11-14 21:34:07 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-14 21:34:07 - modules.paper_downloader - INFO - Paper already exists: 1201.2905v2.pdf
+2024-11-14 21:34:07 - modules.paper_downloader - INFO - Paper already exists: 2204.02515v1.pdf
+2024-11-14 21:34:07 - modules.paper_downloader - INFO - Paper already exists: 0702009v8.pdf
+2024-11-14 21:34:07 - modules.paper_downloader - INFO - Paper already exists: 1802.09621v1.pdf
+2024-11-14 21:34:08 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-14 21:34:08 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-14 21:34:08 - modules.paper_downloader - WARNING - Failed to download 1402.0044v2.pdf: 404
+2024-11-14 21:34:08 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-14 21:34:08 - modules.paper_downloader - INFO - Successfully downloaded: 2308.07988v1.pdf
+2024-11-14 21:34:08 - modules.paper_downloader - WARNING - Failed to download 1402.0044v2.pdf: 404
+2024-11-14 21:34:08 - modules.paper_downloader - WARNING - Failed to download 1402.0044v2.pdf: 404
+2024-11-14 21:34:08 - modules.paper_downloader - INFO - Successfully downloaded: 0202086v2.pdf
+2024-11-14 21:34:08 - modules.paper_downloader - INFO - Successfully downloaded: 2309.16938v2.pdf
+2024-11-14 21:34:09 - modules.paper_downloader - INFO - Successfully downloaded: 2407.01352v1.pdf
+2024-11-14 21:34:09 - modules.paper_downloader - INFO - Successfully downloaded 8 out of 10 papers
+2024-11-14 21:34:09 - __main__ - INFO - Downloaded 8 new papers
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 1201.2905v2.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1201.2905v2_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 2204.02515v1.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2204.02515v1_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 2407.01352v1.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2407.01352v1_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 0702009v8.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0702009v8_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 1802.09621v1.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1802.09621v1_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 2309.16938v2.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2309.16938v2_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 2308.07988v1.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2308.07988v1_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Processing paper: 0202086v2.pdf
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0202086v2_processed.txt
+2024-11-14 21:34:09 - modules.pdf_processor - INFO - Successfully processed 8 out of 8 papers
+2024-11-14 21:34:09 - __main__ - INFO - Processed 8 papers
+2024-11-14 21:34:09 - modules.paper_summarizer - INFO - Starting to process 8 papers
+2024-11-14 21:34:09 - modules.paper_summarizer - INFO - Processing paper 1/8: NegCut: Automatic Image Segmentation based on MRF-MAP
+2024-11-14 21:34:21 - modules.paper_summarizer - INFO - Successfully processed paper 1/8
+2024-11-14 21:34:21 - modules.paper_summarizer - INFO - Processing paper 2/8: Inferring Rewards from Language in Context
+2024-11-14 21:34:37 - modules.paper_summarizer - INFO - Successfully processed paper 2/8
+2024-11-14 21:34:37 - modules.paper_summarizer - INFO - Processing paper 3/8: 3U Transat: a cubesat constellation to boost the multi-messenger astronomy
+2024-11-14 21:35:00 - modules.paper_summarizer - INFO - Successfully processed paper 3/8
+2024-11-14 21:35:00 - modules.paper_summarizer - INFO - Processing paper 4/8: Why do we Still Believe in Newton's Law ? Facts, Myths and Methods in Gravitational Physics
+2024-11-14 21:35:17 - modules.paper_summarizer - INFO - Successfully processed paper 4/8
+2024-11-14 21:35:17 - modules.paper_summarizer - INFO - Processing paper 5/8: Simultaneous cores with restrictions and a question of Zaleski and Zeilberger
+2024-11-14 21:35:23 - modules.paper_summarizer - INFO - Successfully processed paper 5/8
+2024-11-14 21:35:23 - modules.paper_summarizer - INFO - Processing paper 6/8: "I'd Like to Have an Argument, Please": Argumentative Reasoning in Large Language Models
+2024-11-14 21:35:48 - modules.paper_summarizer - INFO - Successfully processed paper 6/8
+2024-11-14 21:35:48 - modules.paper_summarizer - INFO - Processing paper 7/8: ReaderQuizzer: Augmenting Research Papers with Just-In-Time Learning Questions to Facilitate Deeper Understanding
+2024-11-14 21:36:05 - modules.paper_summarizer - INFO - Successfully processed paper 7/8
+2024-11-14 21:36:05 - modules.paper_summarizer - INFO - Processing paper 8/8: Quantum Gravity with Minimal Assumptions
+2024-11-14 21:36:16 - modules.paper_summarizer - INFO - Successfully processed paper 8/8
+2024-11-14 21:36:16 - modules.paper_summarizer - INFO - Successfully processed 8 out of 8 papers
+2024-11-14 21:36:16 - __main__ - INFO - Generated summaries for 8 papers
+2024-11-14 21:36:17 - __main__ - INFO - Generated embeddings for summaries
+2024-11-14 21:36:17 - __main__ - ERROR - Error processing research query: 'file_name'
+2024-11-14 21:36:17 - __main__ - ERROR - Error in main: 'file_name'
+2024-11-14 21:40:28 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 21:40:28 - __main__ - ERROR - Error initializing Research Assistant: VectorStore.__init__() missing 2 required positional arguments: 'client' and 'collection_name'
+2024-11-14 21:40:28 - __main__ - ERROR - Error in main: VectorStore.__init__() missing 2 required positional arguments: 'client' and 'collection_name'
+2024-11-14 21:42:59 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 21:43:00 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-14 21:43:00 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-14 21:43:00 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-14 21:43:00 - __main__ - INFO - Research Assistant initialized
+2024-11-14 21:43:18 - __main__ - INFO - Processing research query: I'd like to know about transational invariance in computer vision
+2024-11-14 21:43:19 - __main__ - INFO - Generated query embedding
+2024-11-14 21:43:19 - __main__ - ERROR - Error processing research query: 'VectorStore' object has no attribute 'search_similar'
+2024-11-14 21:43:19 - __main__ - ERROR - Error in main: 'VectorStore' object has no attribute 'search_similar'
+2024-11-14 21:46:09 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 21:46:09 - __main__ - ERROR - Error initializing Research Assistant: VectorStore.__init__() got an unexpected keyword argument 'client'
+2024-11-14 21:46:09 - __main__ - ERROR - Error in main: VectorStore.__init__() got an unexpected keyword argument 'client'
+2024-11-14 21:47:43 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 21:47:43 - __main__ - ERROR - Error initializing Research Assistant: FAISS.__init__() missing 2 required positional arguments: 'docstore' and 'index_to_docstore_id'
+2024-11-14 21:47:43 - __main__ - ERROR - Error in main: FAISS.__init__() missing 2 required positional arguments: 'docstore' and 'index_to_docstore_id'
+2024-11-14 21:56:22 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 21:56:22 - models.vector_store - INFO - Using existing collection: research_papers
+2024-11-14 21:56:22 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-14 21:56:22 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-14 21:56:22 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-14 21:56:22 - __main__ - INFO - Research Assistant initialized
+2024-11-14 21:56:25 - __main__ - INFO - Processing research query: Hello
+2024-11-14 21:56:26 - __main__ - INFO - Generated query embedding
+2024-11-14 21:56:26 - __main__ - INFO - Found 0 similar papers
+2024-11-14 21:56:26 - __main__ - INFO - Downloading additional papers...
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4754v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4762v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4763v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4753v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4758v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4757v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 2405.07848v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1111.4756v1.pdf
+2024-11-14 21:56:27 - modules.paper_downloader - INFO - Successfully downloaded: 1409.4078v1.pdf
+2024-11-14 21:56:28 - modules.paper_downloader - INFO - Successfully downloaded: 1910.11916v3.pdf
+2024-11-14 21:56:28 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-11-14 21:56:28 - __main__ - INFO - Downloaded 10 new papers
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1409.4078v1.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1409.4078v1_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1111.4753v1.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4753v1_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1111.4758v1.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4758v1_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1111.4762v1.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4762v1_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1910.11916v3.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1910.11916v3_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1111.4754v1.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4754v1_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1111.4756v1.pdf
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4756v1_processed.txt
+2024-11-14 21:56:28 - modules.pdf_processor - INFO - Processing paper: 1111.4757v1.pdf
+2024-11-14 21:56:29 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4757v1_processed.txt
+2024-11-14 21:56:29 - modules.pdf_processor - INFO - Processing paper: 1111.4763v1.pdf
+2024-11-14 21:56:29 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1111.4763v1_processed.txt
+2024-11-14 21:56:29 - modules.pdf_processor - INFO - Processing paper: 2405.07848v1.pdf
+2024-11-14 21:56:29 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2405.07848v1_processed.txt
+2024-11-14 21:56:29 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-11-14 21:56:29 - __main__ - INFO - Processed 10 papers
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 1/10: The distributed Language Hello White Paper
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 1/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 2/10: Saying Hello World with Edapt - A Solution to the TTC 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 2/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 3/10: Saying Hello World with VIATRA2 - A Solution to the TTC 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 3/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 4/10: Saying Hello World with GReTL - A Solution to the TTC 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 4/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 5/10: Minus HELLO: HELLO Devoid Protocols for Energy Preservation in Mobile Ad Hoc Networks
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 5/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 6/10: Saying Hello World with GROOVE - A Solution to the TTC 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 6/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 7/10: Saying Hello World with Henshin - A Solution to the TTC 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 7/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 8/10: Saying Hello World with GrGen.NET - A Solution to the TTC 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 8/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 9/10: Saying Hello World with UML-RSDS - A Solution to the 2011 Instructive Case
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 9/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Processing paper 10/10: Positional-Unigram Byte Models for Generalized TLS Fingerprinting
+2024-11-14 21:56:29 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 21:56:29 - modules.paper_summarizer - WARNING - No summaries generated for paper 10/10
+2024-11-14 21:56:29 - modules.paper_summarizer - INFO - Successfully processed 0 out of 10 papers
+2024-11-14 21:56:29 - __main__ - INFO - Generated summaries for 0 papers
+2024-11-14 22:05:30 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 22:05:30 - models.vector_store - INFO - Using existing collection: research_papers
+2024-11-14 22:05:31 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-14 22:05:31 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-14 22:05:31 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-14 22:05:31 - __main__ - INFO - Research Assistant initialized
+2024-11-14 22:05:47 - __main__ - INFO - Processing research query: I'd like to know more about RAG in generative AI
+2024-11-14 22:05:47 - __main__ - ERROR - Error processing research query: VectorStore.search_similar() got an unexpected keyword argument 'k'
+2024-11-14 22:05:47 - __main__ - ERROR - Error in main: VectorStore.search_similar() got an unexpected keyword argument 'k'
+2024-11-14 22:07:38 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 22:07:38 - models.vector_store - INFO - Creating new FAISS index
+2024-11-14 22:07:41 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-14 22:07:41 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-14 22:07:41 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-14 22:07:41 - __main__ - INFO - Research Assistant initialized
+2024-11-14 22:07:50 - __main__ - INFO - Processing research query: I'd like to know RAG in generative AI
+2024-11-14 22:07:51 - __main__ - INFO - Found 1 similar papers
+2024-11-14 22:07:51 - __main__ - INFO - Downloading additional papers...
+2024-11-14 22:07:53 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2404.15939v3.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2402.01717v1.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2408.10343v1.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2407.19994v3.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2410.17783v1.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2410.09699v1.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2409.18986v1.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2410.21943v1.pdf
+2024-11-14 22:07:54 - modules.paper_downloader - INFO - Successfully downloaded: 2410.13085v1.pdf
+2024-11-14 22:07:55 - modules.paper_downloader - INFO - Successfully downloaded: 2407.21059v1.pdf
+2024-11-14 22:07:55 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-11-14 22:07:55 - __main__ - INFO - Downloaded 10 new papers
+2024-11-14 22:07:55 - modules.pdf_processor - INFO - Processing paper: 2407.21059v1.pdf
+2024-11-14 22:07:55 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2407.21059v1_processed.txt
+2024-11-14 22:07:55 - modules.pdf_processor - INFO - Processing paper: 2410.09699v1.pdf
+2024-11-14 22:07:55 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.09699v1_processed.txt
+2024-11-14 22:07:55 - modules.pdf_processor - INFO - Processing paper: 2409.18986v1.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2409.18986v1_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2410.17783v1.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.17783v1_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2407.19994v3.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2407.19994v3_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2402.01717v1.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2402.01717v1_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2408.10343v1.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2408.10343v1_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2410.13085v1.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.13085v1_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2410.21943v1.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.21943v1_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Processing paper: 2404.15939v3.pdf
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2404.15939v3_processed.txt
+2024-11-14 22:07:56 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-11-14 22:07:56 - __main__ - INFO - Processed 10 papers
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 1/10: Modular RAG: Transforming RAG Systems into LEGO-like Reconfigurable Frameworks
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 1/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 2/10: Honest AI: Fine-Tuning "Small" Language Models to Say "I Don't Know", and Reducing Hallucination in RAG
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 2/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 3/10: Lab-AI -- Retrieval-Augmented Language Model for Personalized Lab Test Interpretation in Clinical Medicine
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 3/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 4/10: Leveraging the Domain Adaptation of Retrieval Augmented Generation Models for Question Answering and Reducing Hallucination
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 4/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 5/10: A Study on the Implementation Method of an Agent-Based Advanced RAG System Using Graph
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 5/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 6/10: From RAG to QA-RAG: Integrating Generative AI for Pharmaceutical Regulatory Compliance Process
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 6/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 7/10: LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 7/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 8/10: MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 8/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 9/10: Beyond Text: Optimizing RAG with Multimodal Inputs for Industrial Applications
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 9/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Processing paper 10/10: Telco-RAG: Navigating the Challenges of Retrieval-Augmented Language Models for Telecommunications
+2024-11-14 22:07:56 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:07:56 - modules.paper_summarizer - WARNING - No summaries generated for paper 10/10
+2024-11-14 22:07:56 - modules.paper_summarizer - INFO - Successfully processed 0 out of 10 papers
+2024-11-14 22:07:56 - __main__ - INFO - Generated summaries for 0 papers
+2024-11-14 22:08:03 - __main__ - INFO - Generated research response
+2024-11-14 22:08:46 - __main__ - INFO - Initializing Research Assistant...
+2024-11-14 22:08:46 - models.vector_store - INFO - Creating new FAISS index
+2024-11-14 22:08:47 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-14 22:08:47 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-14 22:08:47 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-14 22:08:47 - __main__ - INFO - Research Assistant initialized
+2024-11-14 22:09:05 - __main__ - INFO - Processing research query: I'd like to know more about translational invariance in computer vision
+2024-11-14 22:09:06 - __main__ - INFO - Found 1 similar papers
+2024-11-14 22:09:06 - __main__ - INFO - Downloading additional papers...
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 2204.02515v1.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 0905.2254v2.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 1201.2905v2.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 1802.09621v1.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 0705.3423v2.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 2308.07988v1.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 2404.10897v1.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Paper already exists: 2309.16938v2.pdf
+2024-11-14 22:09:07 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-14 22:09:07 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-14 22:09:07 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-14 22:09:07 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-14 22:09:07 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-14 22:09:07 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-14 22:09:07 - modules.paper_downloader - INFO - Successfully downloaded 8 out of 10 papers
+2024-11-14 22:09:07 - __main__ - INFO - Downloaded 8 new papers
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Processing paper: 2204.02515v1.pdf
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2204.02515v1_processed.txt
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Processing paper: 0905.2254v2.pdf
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0905.2254v2_processed.txt
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Processing paper: 1201.2905v2.pdf
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1201.2905v2_processed.txt
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Processing paper: 1802.09621v1.pdf
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1802.09621v1_processed.txt
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Processing paper: 0705.3423v2.pdf
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0705.3423v2_processed.txt
+2024-11-14 22:09:07 - modules.pdf_processor - INFO - Processing paper: 2308.07988v1.pdf
+2024-11-14 22:09:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2308.07988v1_processed.txt
+2024-11-14 22:09:08 - modules.pdf_processor - INFO - Processing paper: 2404.10897v1.pdf
+2024-11-14 22:09:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2404.10897v1_processed.txt
+2024-11-14 22:09:08 - modules.pdf_processor - INFO - Processing paper: 2309.16938v2.pdf
+2024-11-14 22:09:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2309.16938v2_processed.txt
+2024-11-14 22:09:08 - modules.pdf_processor - INFO - Successfully processed 8 out of 8 papers
+2024-11-14 22:09:08 - __main__ - INFO - Processed 8 papers
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Starting to process 8 papers
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 1/8: Inferring Rewards from Language in Context
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 1/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 2/8: On the infinity of infinities of orders of the infinitely large and infinitely small
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 2/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 3/8: NegCut: Automatic Image Segmentation based on MRF-MAP
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 3/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 4/8: Simultaneous cores with restrictions and a question of Zaleski and Zeilberger
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 4/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 5/8: Annotations to a certain passage of Descartes for finding the quadrature of the circle
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 5/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 6/8: ReaderQuizzer: Augmenting Research Papers with Just-In-Time Learning Questions to Facilitate Deeper Understanding
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 6/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 7/8: The Future of Research on Social Technologies: CCC Workshop Visioning Report
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 7/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Processing paper 8/8: "I'd Like to Have an Argument, Please": Argumentative Reasoning in Large Language Models
+2024-11-14 22:09:08 - modules.paper_summarizer - ERROR - Error summarizing paper: 'PaperSummarizer' object has no attribute '_generate_section_summary'
+2024-11-14 22:09:08 - modules.paper_summarizer - WARNING - No summaries generated for paper 8/8
+2024-11-14 22:09:08 - modules.paper_summarizer - INFO - Successfully processed 0 out of 8 papers
+2024-11-14 22:09:08 - __main__ - INFO - Generated summaries for 0 papers
+2024-11-14 22:09:14 - __main__ - INFO - Generated research response

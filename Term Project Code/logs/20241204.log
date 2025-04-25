@@ -1,0 +1,148 @@
+2024-12-04 10:32:15 - __main__ - INFO - Initializing Research Assistant...
+2024-12-04 10:32:15 - models.vector_store - INFO - Loading existing FAISS index
+2024-12-04 10:32:16 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers
+2024-12-04 10:32:16 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed
+2024-12-04 10:32:16 - __main__ - INFO - Research Assistant initialized successfully
+2024-12-04 10:32:16 - __main__ - INFO - Research Assistant initialized
+2024-12-04 10:32:33 - __main__ - INFO - Processing research query: mitigate the ai risks
+2024-12-04 10:32:34 - __main__ - INFO - Found 5 similar papers
+2024-12-04 10:32:34 - __main__ - INFO - Downloading additional papers...
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Paper already exists: 2206.08966v3.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2305.09300v2.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2412.02145v1.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2408.02565v1.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2407.01557v1.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2410.13897v1.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2309.14530v1.pdf
+2024-12-04 10:32:35 - modules.paper_downloader - INFO - Successfully downloaded: 2406.11851v1.pdf
+2024-12-04 10:32:36 - modules.paper_downloader - INFO - Successfully downloaded: 2306.10052v1.pdf
+2024-12-04 10:32:38 - modules.paper_downloader - INFO - Successfully downloaded: 2406.06199v1.pdf
+2024-12-04 10:32:38 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-12-04 10:32:38 - __main__ - INFO - Downloaded 10 new papers
+2024-12-04 10:32:38 - modules.pdf_processor - INFO - Processing paper: 2412.02145v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2412.02145v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2410.13897v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2410.13897v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2309.14530v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2309.14530v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2206.08966v3.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2206.08966v3_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2406.06199v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2406.06199v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2408.02565v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2408.02565v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2305.09300v2.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2305.09300v2_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2406.11851v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2406.11851v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2306.10052v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2306.10052v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Processing paper: 2407.01557v1.pdf
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2407.01557v1_processed.txt
+2024-12-04 10:32:39 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-12-04 10:32:39 - __main__ - INFO - Processed 10 papers
+2024-12-04 10:32:39 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-12-04 10:32:39 - modules.paper_summarizer - INFO - Processing paper 1/10: Effective Mitigations for Systemic Risks from General-Purpose AI
+2024-12-04 10:32:55 - modules.paper_summarizer - INFO - Successfully processed paper 1/10
+2024-12-04 10:32:55 - modules.paper_summarizer - INFO - Processing paper 2/10: A Formal Framework for Assessing and Mitigating Emergent Security Risks in Generative AI Models: Bridging Theory and Dynamic Risk Mitigation
+2024-12-04 10:33:11 - modules.paper_summarizer - INFO - Successfully processed paper 2/10
+2024-12-04 10:33:11 - modules.paper_summarizer - INFO - Processing paper 3/10: Risk of AI in Healthcare: A Comprehensive Literature Review and Study Framework
+2024-12-04 10:33:27 - modules.paper_summarizer - INFO - Successfully processed paper 3/10
+2024-12-04 10:33:27 - modules.paper_summarizer - INFO - Processing paper 4/10: Actionable Guidance for High-Consequence AI Risk Management: Towards Standards Addressing AI Catastrophic Risks
+2024-12-04 10:33:43 - modules.paper_summarizer - INFO - Successfully processed paper 4/10
+2024-12-04 10:33:43 - modules.paper_summarizer - INFO - Processing paper 5/10: Implications for Governance in Public Perceptions of Societal-scale AI Risks
+2024-12-04 10:33:51 - modules.paper_summarizer - INFO - Successfully processed paper 5/10
+2024-12-04 10:33:51 - modules.paper_summarizer - INFO - Processing paper 6/10: Reasons to Doubt the Impact of AI Risk Evaluations
+2024-12-04 10:33:56 - modules.paper_summarizer - INFO - Successfully processed paper 6/10
+2024-12-04 10:33:56 - modules.paper_summarizer - INFO - Processing paper 7/10: QB4AIRA: A Question Bank for AI Risk Assessment
+2024-12-04 10:34:11 - modules.paper_summarizer - INFO - Successfully processed paper 7/10
+2024-12-04 10:34:11 - modules.paper_summarizer - INFO - Processing paper 8/10: GUARD-D-LLM: An LLM-Based Risk Assessment Engine for the Downstream uses of LLMs
+2024-12-04 10:34:23 - modules.paper_summarizer - INFO - Successfully processed paper 8/10
+2024-12-04 10:34:23 - modules.paper_summarizer - INFO - Processing paper 9/10: Assigning AI: Seven Approaches for Students, with Prompts
+2024-12-04 10:34:33 - modules.paper_summarizer - INFO - Successfully processed paper 9/10
+2024-12-04 10:34:33 - modules.paper_summarizer - INFO - Processing paper 10/10: AI Governance and Accountability: An Analysis of Anthropic's Claude
+2024-12-04 10:34:48 - modules.paper_summarizer - INFO - Successfully processed paper 10/10
+2024-12-04 10:34:48 - modules.paper_summarizer - INFO - Successfully processed 10 out of 10 papers
+2024-12-04 10:34:48 - __main__ - INFO - Generated summaries for 10 papers
+2024-12-04 10:34:48 - __main__ - INFO - Evaluating summaries...
+2024-12-04 10:35:39 - __main__ - INFO - Saved evaluation results to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\summaries\evaluation_results.csv
+2024-12-04 10:35:40 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\vector_store\faiss_index
+2024-12-04 10:35:40 - models.vector_store - INFO - Successfully stored 7 documents
+2024-12-04 10:35:40 - __main__ - INFO - Stored documents in vector store
+2024-12-04 10:35:40 - __main__ - INFO - Found 5 papers after update
+2024-12-04 10:35:45 - __main__ - INFO - Generated research response
+2024-12-04 15:17:09 - __main__ - INFO - Initializing Research Assistant...
+2024-12-04 15:17:09 - models.vector_store - INFO - Loading existing FAISS index
+2024-12-04 15:17:10 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers
+2024-12-04 15:17:10 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed
+2024-12-04 15:17:10 - __main__ - INFO - Research Assistant initialized successfully
+2024-12-04 15:17:10 - __main__ - INFO - Research Assistant initialized
+2024-12-04 15:17:26 - __main__ - INFO - Processing research query: Catastropic Risks of ai agents in Entertainment sector
+2024-12-04 15:17:27 - __main__ - INFO - Found 5 similar papers
+2024-12-04 15:17:27 - __main__ - INFO - Downloading additional papers...
+2024-12-04 15:17:28 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-12-04 15:17:28 - modules.paper_downloader - INFO - Paper already exists: 2410.01927v1.pdf
+2024-12-04 15:17:28 - modules.paper_downloader - INFO - Paper already exists: 2211.03157v4.pdf
+2024-12-04 15:17:29 - modules.paper_downloader - INFO - Successfully downloaded: 2410.13919v1.pdf
+2024-12-04 15:17:29 - modules.paper_downloader - INFO - Successfully downloaded: 2404.05847v1.pdf
+2024-12-04 15:17:29 - modules.paper_downloader - INFO - Successfully downloaded: 2409.03793v2.pdf
+2024-12-04 15:17:29 - modules.paper_downloader - INFO - Successfully downloaded: 2408.15686v1.pdf
+2024-12-04 15:17:29 - modules.paper_downloader - INFO - Successfully downloaded: 2308.16538v1.pdf
+2024-12-04 15:17:29 - modules.paper_downloader - INFO - Successfully downloaded: 2410.01818v1.pdf
+2024-12-04 15:17:32 - modules.paper_downloader - INFO - Successfully downloaded: 2406.17864v1.pdf
+2024-12-04 15:17:37 - modules.paper_downloader - INFO - Successfully downloaded: 2406.00783v2.pdf
+2024-12-04 15:17:37 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-12-04 15:17:37 - __main__ - INFO - Downloaded 10 new papers
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Processing paper: 2409.03793v2.pdf
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2409.03793v2_processed.txt
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Processing paper: 2410.01818v1.pdf
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2410.01818v1_processed.txt
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Processing paper: 2308.16538v1.pdf
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2308.16538v1_processed.txt
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Processing paper: 2404.05847v1.pdf
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2404.05847v1_processed.txt
+2024-12-04 15:17:37 - modules.pdf_processor - INFO - Processing paper: 2410.01927v1.pdf
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2410.01927v1_processed.txt
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Processing paper: 2408.15686v1.pdf
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2408.15686v1_processed.txt
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Processing paper: 2406.17864v1.pdf
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2406.17864v1_processed.txt
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Processing paper: 2211.03157v4.pdf
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2211.03157v4_processed.txt
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Processing paper: 2410.13919v1.pdf
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2410.13919v1_processed.txt
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Processing paper: 2406.00783v2.pdf
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2406.00783v2_processed.txt
+2024-12-04 15:17:38 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-12-04 15:17:38 - __main__ - INFO - Processed 10 papers
+2024-12-04 15:17:38 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-12-04 15:17:38 - modules.paper_summarizer - INFO - Processing paper 1/10: Safeguarding AI Agents: Developing and Analyzing Safety Architectures
+2024-12-04 15:17:47 - modules.paper_summarizer - INFO - Successfully processed paper 1/10
+2024-12-04 15:17:47 - modules.paper_summarizer - INFO - Processing paper 2/10: Integrating AI's Carbon Footprint into Risk Management Frameworks: Strategies and Tools for Sustainable Compliance in Banking Sector
+2024-12-04 15:18:01 - modules.paper_summarizer - INFO - Successfully processed paper 2/10
+2024-12-04 15:18:01 - modules.paper_summarizer - INFO - Processing paper 3/10: The AI Revolution: Opportunities and Challenges for the Finance Sector
+2024-12-04 15:18:19 - modules.paper_summarizer - INFO - Successfully processed paper 3/10
+2024-12-04 15:18:19 - modules.paper_summarizer - INFO - Processing paper 4/10: Approaching Emergent Risks: An Exploratory Study into Artificial Intelligence Risk Management within Financial Organisations
+2024-12-04 15:18:33 - modules.paper_summarizer - INFO - Successfully processed paper 4/10
+2024-12-04 15:18:33 - modules.paper_summarizer - INFO - Processing paper 5/10: Risk Alignment in Agentic AI Systems
+2024-12-04 15:18:49 - modules.paper_summarizer - INFO - Successfully processed paper 5/10
+2024-12-04 15:18:49 - modules.paper_summarizer - INFO - Processing paper 6/10: Navigating the Future of Education: Educators' Insights on AI Integration and Challenges in Greece, Hungary, Latvia, Ireland and Armenia
+2024-12-04 15:18:55 - modules.paper_summarizer - INFO - Successfully processed paper 6/10
+2024-12-04 15:18:55 - modules.paper_summarizer - INFO - Processing paper 7/10: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies
+2024-12-04 15:19:09 - modules.paper_summarizer - INFO - Successfully processed paper 7/10
+2024-12-04 15:19:09 - modules.paper_summarizer - INFO - Processing paper 8/10: Examining the Differential Risk from High-level Artificial Intelligence and the Question of Control
+2024-12-04 15:19:25 - modules.paper_summarizer - INFO - Successfully processed paper 8/10
+2024-12-04 15:19:25 - modules.paper_summarizer - INFO - Processing paper 9/10: LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild
+2024-12-04 15:19:38 - modules.paper_summarizer - INFO - Successfully processed paper 9/10
+2024-12-04 15:19:38 - modules.paper_summarizer - INFO - Processing paper 10/10: AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark
+2024-12-04 15:19:50 - modules.paper_summarizer - INFO - Successfully processed paper 10/10
+2024-12-04 15:19:50 - modules.paper_summarizer - INFO - Successfully processed 10 out of 10 papers
+2024-12-04 15:19:50 - __main__ - INFO - Generated summaries for 10 papers
+2024-12-04 15:19:50 - __main__ - INFO - Evaluating summaries...
+2024-12-04 15:21:07 - __main__ - INFO - Saved evaluation results to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\summaries\evaluation_results.csv
+2024-12-04 15:21:07 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\vector_store\faiss_index
+2024-12-04 15:21:07 - models.vector_store - INFO - Successfully stored 8 documents
+2024-12-04 15:21:07 - __main__ - INFO - Stored documents in vector store
+2024-12-04 15:21:08 - __main__ - INFO - Found 5 papers after update
+2024-12-04 15:21:15 - __main__ - INFO - Generated research response

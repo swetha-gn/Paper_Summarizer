@@ -1,0 +1,140 @@
+2024-11-20 13:54:38 - __main__ - INFO - Initializing Research Assistant...
+2024-11-20 13:54:39 - models.vector_store - INFO - Loading existing FAISS index
+2024-11-20 13:54:39 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-20 13:54:39 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-20 13:54:39 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-20 13:54:39 - __main__ - INFO - Research Assistant initialized
+2024-11-20 13:54:47 - __main__ - INFO - Processing research query: lagrangian point
+2024-11-20 13:54:48 - __main__ - INFO - Found 5 similar papers
+2024-11-20 13:54:48 - __main__ - INFO - Downloading additional papers...
+2024-11-20 13:54:49 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-20 13:54:49 - modules.paper_downloader - WARNING - Failed to download 1702.04318v2.pdf: 404
+2024-11-20 13:54:49 - modules.paper_downloader - INFO - Successfully downloaded: 0809.1601v1.pdf
+2024-11-20 13:54:49 - modules.paper_downloader - WARNING - Failed to download 1702.04318v2.pdf: 404
+2024-11-20 13:54:50 - modules.paper_downloader - WARNING - Failed to download 1702.04318v2.pdf: 404
+2024-11-20 13:54:52 - modules.paper_downloader - INFO - Successfully downloaded: 1603.04650v1.pdf
+2024-11-20 13:54:52 - modules.paper_downloader - INFO - Successfully downloaded: 1904.04353v1.pdf
+2024-11-20 13:54:52 - modules.paper_downloader - INFO - Successfully downloaded: 2207.13205v1.pdf
+2024-11-20 13:54:52 - modules.paper_downloader - INFO - Successfully downloaded: 0310166v1.pdf
+2024-11-20 13:54:53 - modules.paper_downloader - INFO - Successfully downloaded: 2011.07882v2.pdf
+2024-11-20 13:54:53 - modules.paper_downloader - INFO - Successfully downloaded: 2410.11478v2.pdf
+2024-11-20 13:54:54 - modules.paper_downloader - INFO - Successfully downloaded: 2303.05096v3.pdf
+2024-11-20 13:54:59 - modules.paper_downloader - INFO - Successfully downloaded: 1708.09048v1.pdf
+2024-11-20 13:54:59 - modules.paper_downloader - INFO - Successfully downloaded 9 out of 10 papers
+2024-11-20 13:54:59 - __main__ - INFO - Downloaded 9 new papers
+2024-11-20 13:54:59 - modules.pdf_processor - INFO - Processing paper: 2303.05096v3.pdf
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2303.05096v3_processed.txt
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Processing paper: 2207.13205v1.pdf
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2207.13205v1_processed.txt
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Processing paper: 0310166v1.pdf
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0310166v1_processed.txt
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Processing paper: 2011.07882v2.pdf
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2011.07882v2_processed.txt
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Processing paper: 1708.09048v1.pdf
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1708.09048v1_processed.txt
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Processing paper: 1904.04353v1.pdf
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1904.04353v1_processed.txt
+2024-11-20 13:55:00 - modules.pdf_processor - INFO - Processing paper: 1603.04650v1.pdf
+2024-11-20 13:55:01 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1603.04650v1_processed.txt
+2024-11-20 13:55:01 - modules.pdf_processor - INFO - Processing paper: 2410.11478v2.pdf
+2024-11-20 13:55:01 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.11478v2_processed.txt
+2024-11-20 13:55:01 - modules.pdf_processor - INFO - Processing paper: 0809.1601v1.pdf
+2024-11-20 13:55:01 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0809.1601v1_processed.txt
+2024-11-20 13:55:01 - modules.pdf_processor - INFO - Successfully processed 9 out of 9 papers
+2024-11-20 13:55:01 - __main__ - INFO - Processed 9 papers
+2024-11-20 13:55:01 - modules.paper_summarizer - INFO - Starting to process 9 papers
+2024-11-20 13:55:01 - modules.paper_summarizer - INFO - Processing paper 1/9: Singularities of Lagrangian Immersions and its Applications in Lagrangian Floer Theory
+2024-11-20 13:55:14 - modules.paper_summarizer - INFO - Successfully processed paper 1/9
+2024-11-20 13:55:14 - modules.paper_summarizer - INFO - Processing paper 2/9: Obstructions to reversing Lagrangian surgery in Lagrangian fillings
+2024-11-20 13:55:27 - modules.paper_summarizer - INFO - Successfully processed paper 2/9
+2024-11-20 13:55:27 - modules.paper_summarizer - INFO - Processing paper 3/9: Floer's chain complexes for Lagrangian submanifolds in symplectic manifolds with concave ends
+2024-11-20 13:55:42 - modules.paper_summarizer - INFO - Successfully processed paper 3/9
+2024-11-20 13:55:42 - modules.paper_summarizer - INFO - Processing paper 4/9: On the Gluing Construction of Translating Solitons to Lagrangian Mean Curvature Flow
+2024-11-20 13:55:55 - modules.paper_summarizer - INFO - Successfully processed paper 4/9
+2024-11-20 13:55:55 - modules.paper_summarizer - INFO - Processing paper 5/9: Lifting Lagrangian immersions in $\mathbb{C} P^{n-1}$ to Lagrangian cones in $\mathbb{C}^n$
+2024-11-20 13:56:08 - modules.paper_summarizer - INFO - Successfully processed paper 5/9
+2024-11-20 13:56:08 - modules.paper_summarizer - INFO - Processing paper 6/9: Lagrangian Floer homology on symplectic blow ups
+2024-11-20 13:56:21 - modules.paper_summarizer - INFO - Successfully processed paper 6/9
+2024-11-20 13:56:21 - modules.paper_summarizer - INFO - Processing paper 7/9: On Lagrangian algebras in group-theoretical braided fusion categories
+2024-11-20 13:56:37 - modules.paper_summarizer - INFO - Successfully processed paper 7/9
+2024-11-20 13:56:37 - modules.paper_summarizer - INFO - Processing paper 8/9: Floer homotopy theory and degenerate Lagrangian intersections
+2024-11-20 13:56:49 - modules.paper_summarizer - INFO - Successfully processed paper 8/9
+2024-11-20 13:56:49 - modules.paper_summarizer - INFO - Processing paper 9/9: Lagrangians with Riemann Zeta Function
+2024-11-20 13:57:00 - modules.paper_summarizer - INFO - Successfully processed paper 9/9
+2024-11-20 13:57:00 - modules.paper_summarizer - INFO - Successfully processed 9 out of 9 papers
+2024-11-20 13:57:00 - __main__ - INFO - Generated summaries for 9 papers
+2024-11-20 13:57:01 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\vector_store\faiss_index
+2024-11-20 13:57:01 - models.vector_store - INFO - Successfully stored 8 documents
+2024-11-20 13:57:01 - __main__ - INFO - Stored documents in vector store
+2024-11-20 13:57:02 - __main__ - INFO - Found 5 papers after update
+2024-11-20 13:57:11 - __main__ - INFO - Generated research response
+2024-11-20 14:40:36 - __main__ - INFO - Initializing Research Assistant...
+2024-11-20 14:40:37 - models.vector_store - INFO - Loading existing FAISS index
+2024-11-20 14:40:37 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-20 14:40:37 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-20 14:40:37 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-20 14:40:37 - __main__ - INFO - Research Assistant initialized
+2024-11-20 14:40:44 - __main__ - INFO - Processing research query: lagrangian point
+2024-11-20 14:40:44 - __main__ - INFO - Found 5 similar papers
+2024-11-20 14:40:44 - __main__ - INFO - Downloading additional papers...
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 2303.05096v3.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 2207.13205v1.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 0310166v1.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 2011.07882v2.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 1708.09048v1.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 1904.04353v1.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 1603.04650v1.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 2410.11478v2.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Paper already exists: 0809.1601v1.pdf
+2024-11-20 14:40:45 - modules.paper_downloader - WARNING - Failed to download 1702.04318v2.pdf: 404
+2024-11-20 14:40:45 - modules.paper_downloader - WARNING - Failed to download 1702.04318v2.pdf: 404
+2024-11-20 14:40:45 - modules.paper_downloader - WARNING - Failed to download 1702.04318v2.pdf: 404
+2024-11-20 14:40:45 - modules.paper_downloader - INFO - Successfully downloaded 9 out of 10 papers
+2024-11-20 14:40:45 - __main__ - INFO - Downloaded 9 new papers
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Processing paper: 2303.05096v3.pdf
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2303.05096v3_processed.txt
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Processing paper: 2207.13205v1.pdf
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2207.13205v1_processed.txt
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Processing paper: 0310166v1.pdf
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0310166v1_processed.txt
+2024-11-20 14:40:45 - modules.pdf_processor - INFO - Processing paper: 2011.07882v2.pdf
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2011.07882v2_processed.txt
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Processing paper: 1708.09048v1.pdf
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1708.09048v1_processed.txt
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Processing paper: 1904.04353v1.pdf
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1904.04353v1_processed.txt
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Processing paper: 1603.04650v1.pdf
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1603.04650v1_processed.txt
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Processing paper: 2410.11478v2.pdf
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2410.11478v2_processed.txt
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Processing paper: 0809.1601v1.pdf
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0809.1601v1_processed.txt
+2024-11-20 14:40:46 - modules.pdf_processor - INFO - Successfully processed 9 out of 9 papers
+2024-11-20 14:40:46 - __main__ - INFO - Processed 9 papers
+2024-11-20 14:40:46 - modules.paper_summarizer - INFO - Starting to process 9 papers
+2024-11-20 14:40:46 - modules.paper_summarizer - INFO - Processing paper 1/9: Singularities of Lagrangian Immersions and its Applications in Lagrangian Floer Theory
+2024-11-20 14:41:00 - modules.paper_summarizer - INFO - Successfully processed paper 1/9
+2024-11-20 14:41:00 - modules.paper_summarizer - INFO - Processing paper 2/9: Obstructions to reversing Lagrangian surgery in Lagrangian fillings
+2024-11-20 14:41:16 - modules.paper_summarizer - INFO - Successfully processed paper 2/9
+2024-11-20 14:41:16 - modules.paper_summarizer - INFO - Processing paper 3/9: Floer's chain complexes for Lagrangian submanifolds in symplectic manifolds with concave ends
+2024-11-20 14:41:30 - modules.paper_summarizer - INFO - Successfully processed paper 3/9
+2024-11-20 14:41:30 - modules.paper_summarizer - INFO - Processing paper 4/9: On the Gluing Construction of Translating Solitons to Lagrangian Mean Curvature Flow
+2024-11-20 14:41:43 - modules.paper_summarizer - INFO - Successfully processed paper 4/9
+2024-11-20 14:41:43 - modules.paper_summarizer - INFO - Processing paper 5/9: Lifting Lagrangian immersions in $\mathbb{C} P^{n-1}$ to Lagrangian cones in $\mathbb{C}^n$
+2024-11-20 14:42:00 - modules.paper_summarizer - INFO - Successfully processed paper 5/9
+2024-11-20 14:42:00 - modules.paper_summarizer - INFO - Processing paper 6/9: Lagrangian Floer homology on symplectic blow ups
+2024-11-20 14:42:15 - modules.paper_summarizer - INFO - Successfully processed paper 6/9
+2024-11-20 14:42:15 - modules.paper_summarizer - INFO - Processing paper 7/9: On Lagrangian algebras in group-theoretical braided fusion categories
+2024-11-20 14:42:29 - modules.paper_summarizer - INFO - Successfully processed paper 7/9
+2024-11-20 14:42:29 - modules.paper_summarizer - INFO - Processing paper 8/9: Floer homotopy theory and degenerate Lagrangian intersections
+2024-11-20 14:42:41 - modules.paper_summarizer - INFO - Successfully processed paper 8/9
+2024-11-20 14:42:41 - modules.paper_summarizer - INFO - Processing paper 9/9: Lagrangians with Riemann Zeta Function
+2024-11-20 14:42:52 - modules.paper_summarizer - INFO - Successfully processed paper 9/9
+2024-11-20 14:42:52 - modules.paper_summarizer - INFO - Successfully processed 9 out of 9 papers
+2024-11-20 14:42:52 - __main__ - INFO - Generated summaries for 9 papers
+2024-11-20 14:42:53 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\vector_store\faiss_index
+2024-11-20 14:42:53 - models.vector_store - INFO - Successfully stored 8 documents
+2024-11-20 14:42:53 - __main__ - INFO - Stored documents in vector store
+2024-11-20 14:42:54 - __main__ - INFO - Found 5 papers after update
+2024-11-20 14:43:00 - __main__ - INFO - Generated research response

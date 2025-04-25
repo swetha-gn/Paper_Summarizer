@@ -1,0 +1,698 @@
+2024-11-13 16:01:43 - __main__ - INFO - Initializing Research Assistant...
+2024-11-13 16:01:43 - modules.pdf_processor - INFO - Created/verified directories: research_papers, research_papers\processed
+2024-11-13 16:01:43 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-13 16:01:43 - __main__ - INFO - Research Assistant initialized
+2024-11-13 16:02:08 - __main__ - INFO - Processing research query: I'd like to discuss of Translational Invariance in Computer Vision
+2024-11-13 16:02:08 - __main__ - ERROR - Error processing research query: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:02:08 - __main__ - ERROR - Error in main: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:03:58 - __main__ - INFO - Initializing Research Assistant...
+2024-11-13 16:03:58 - modules.pdf_processor - INFO - Created/verified directories: research_papers, research_papers\processed
+2024-11-13 16:03:58 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-13 16:03:58 - __main__ - INFO - Research Assistant initialized
+2024-11-13 16:04:18 - __main__ - INFO - Processing research query: I'd like to discuss about Translational Invariance in Computer Vision
+2024-11-13 16:04:19 - __main__ - INFO - Generated query embedding
+2024-11-13 16:04:19 - __main__ - INFO - Found 0 similar papers
+2024-11-13 16:04:19 - __main__ - INFO - Downloading additional papers...
+2024-11-13 16:04:19 - modules.paper_downloader - ERROR - Error searching papers: 'async for' requires an object with __aiter__ method, got generator
+2024-11-13 16:04:19 - modules.paper_downloader - ERROR - Error downloading papers: 'async for' requires an object with __aiter__ method, got generator
+2024-11-13 16:04:19 - __main__ - INFO - Downloaded 0 new papers
+2024-11-13 16:04:19 - modules.pdf_processor - WARNING - No valid papers to process
+2024-11-13 16:04:19 - __main__ - INFO - Processed 0 papers
+2024-11-13 16:04:19 - __main__ - INFO - Generated summaries for 0 papers
+2024-11-13 16:04:20 - models.embedding_model - ERROR - Error generating embeddings: Error code: 400 - {'error': {'message': "'$.input' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2024-11-13 16:04:20 - models.embedding_model - ERROR - Error in get_embeddings: Error code: 400 - {'error': {'message': "'$.input' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+Traceback (most recent call last):
+  File "C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\utils\error_handler.py", line 24, in async_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\models\embedding_model.py", line 51, in get_embeddings
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Suriya\anaconda3\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Suriya\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Suriya\anaconda3\Lib\site-packages\openai\resources\embeddings.py", line 124, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\Users\Suriya\anaconda3\Lib\site-packages\openai\_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Suriya\anaconda3\Lib\site-packages\openai\_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\Users\Suriya\anaconda3\Lib\site-packages\openai\_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "'$.input' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+2024-11-13 16:04:20 - __main__ - INFO - Generated embeddings for summaries
+2024-11-13 16:04:20 - __main__ - ERROR - Error fetching and processing papers: 'NoneType' object is not iterable
+2024-11-13 16:04:20 - __main__ - ERROR - Error processing research query: 'NoneType' object is not iterable
+2024-11-13 16:04:20 - __main__ - ERROR - Error in main: 'NoneType' object is not iterable
+2024-11-13 16:10:15 - __main__ - INFO - Initializing Research Assistant...
+2024-11-13 16:10:15 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-13 16:10:15 - modules.pdf_processor - INFO - Created/verified directories: research_papers, research_papers\processed
+2024-11-13 16:10:15 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-13 16:10:15 - __main__ - INFO - Research Assistant initialized
+2024-11-13 16:10:33 - __main__ - INFO - Processing research query: I'd like to discuss about translational invariance in computer vision
+2024-11-13 16:10:34 - __main__ - INFO - Generated query embedding
+2024-11-13 16:10:34 - __main__ - INFO - Found 0 similar papers
+2024-11-13 16:10:34 - __main__ - INFO - Downloading additional papers...
+2024-11-13 16:10:34 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-13 16:10:35 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:10:35 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:10:35 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:10:35 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:10:35 - modules.paper_downloader - INFO - Successfully downloaded: 1802.09621v1.pdf
+2024-11-13 16:10:35 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:10:36 - modules.paper_downloader - INFO - Successfully downloaded: 1201.2905v2.pdf
+2024-11-13 16:10:36 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:10:37 - modules.paper_downloader - INFO - Successfully downloaded: 0905.2254v2.pdf
+2024-11-13 16:10:38 - modules.paper_downloader - INFO - Successfully downloaded: 0705.3423v2.pdf
+2024-11-13 16:10:38 - modules.paper_downloader - INFO - Successfully downloaded: 1801.05568v1.pdf
+2024-11-13 16:10:38 - modules.paper_downloader - INFO - Successfully downloaded: 1801.01450v1.pdf
+2024-11-13 16:10:45 - modules.paper_downloader - INFO - Successfully downloaded: 2204.02515v1.pdf
+2024-11-13 16:10:46 - modules.paper_downloader - INFO - Successfully downloaded: 2006.09001v1.pdf
+2024-11-13 16:10:46 - modules.paper_downloader - INFO - Successfully downloaded 8 out of 10 papers
+2024-11-13 16:10:46 - __main__ - INFO - Downloaded 8 new papers
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 0905.2254v2.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 1201.2905v2.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 2204.02515v1.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 1802.09621v1.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 0705.3423v2.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 1801.05568v1.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 2006.09001v1.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Processing paper: 1801.01450v1.pdf
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper Quantifying Translation-Invariance in Convolutional Neural Networks: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper Image Captioning using Deep Neural Architectures: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper NegCut: Automatic Image Segmentation based on MRF-MAP: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper On the infinity of infinities of orders of the infinitely large and infinitely small: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper Annotations to a certain passage of Descartes for finding the quadrature of the circle: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper RL-CycleGAN: Reinforcement Learning Aware Simulation-To-Real: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper Simultaneous cores with restrictions and a question of Zaleski and Zeilberger: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error saving processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - ERROR - Error processing paper Inferring Rewards from Language in Context: Failed to save processed text: name 'aiofiles' is not defined
+2024-11-13 16:10:46 - modules.pdf_processor - INFO - Successfully processed 0 out of 8 papers
+2024-11-13 16:10:46 - __main__ - INFO - Processed 0 papers
+2024-11-13 16:10:46 - __main__ - INFO - Generated summaries for 0 papers
+2024-11-13 16:18:55 - __main__ - INFO - Initializing Research Assistant...
+2024-11-13 16:18:55 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-13 16:18:55 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-13 16:18:55 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-13 16:18:55 - __main__ - INFO - Research Assistant initialized
+2024-11-13 16:19:18 - __main__ - INFO - Processing research query: I'd like to reasearch about translational invariance in Computer Vision
+2024-11-13 16:19:18 - __main__ - INFO - Generated query embedding
+2024-11-13 16:19:18 - __main__ - INFO - Found 0 similar papers
+2024-11-13 16:19:18 - __main__ - INFO - Downloading additional papers...
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 1201.2905v2.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 0905.2254v2.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 2204.02515v1.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 0705.3423v2.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 1802.09621v1.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 2006.09001v1.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - INFO - Paper already exists: 1801.01450v1.pdf
+2024-11-13 16:19:19 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:19:19 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:19:19 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:19:19 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:19:19 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:19:19 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:19:20 - modules.paper_downloader - INFO - Successfully downloaded: 1305.6376v1.pdf
+2024-11-13 16:19:20 - modules.paper_downloader - INFO - Successfully downloaded 8 out of 10 papers
+2024-11-13 16:19:20 - __main__ - INFO - Downloaded 8 new papers
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 1201.2905v2.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1201.2905v2_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 0905.2254v2.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0905.2254v2_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 2204.02515v1.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2204.02515v1_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 0705.3423v2.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0705.3423v2_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 1305.6376v1.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1305.6376v1_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 1802.09621v1.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1802.09621v1_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 2006.09001v1.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2006.09001v1_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Processing paper: 1801.01450v1.pdf
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1801.01450v1_processed.txt
+2024-11-13 16:19:20 - modules.pdf_processor - INFO - Successfully processed 8 out of 8 papers
+2024-11-13 16:19:20 - __main__ - INFO - Processed 8 papers
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for methods: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for results: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for conclusion: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for abstract: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for introduction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for methods: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for results: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for conclusion: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for conclusion: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for introduction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for results: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for conclusion: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for results: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for abstract: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for methods: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for results: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for conclusion: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for title: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for abstract: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for introduction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for methods: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for results: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for conclusion: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating summary for references: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - modules.paper_summarizer - ERROR - Error generating overall summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-13 16:19:20 - __main__ - INFO - Generated summaries for 8 papers
+2024-11-13 16:19:21 - __main__ - INFO - Generated embeddings for summaries
+2024-11-13 16:19:21 - __main__ - ERROR - Error processing research query: 'file_name'
+2024-11-13 16:19:21 - __main__ - ERROR - Error in main: 'file_name'
+2024-11-13 16:28:17 - __main__ - INFO - Initializing Research Assistant...
+2024-11-13 16:28:17 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers
+2024-11-13 16:28:17 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed
+2024-11-13 16:28:17 - __main__ - INFO - Research Assistant initialized successfully
+2024-11-13 16:28:17 - __main__ - INFO - Research Assistant initialized
+2024-11-13 16:28:37 - __main__ - INFO - Processing research query: I'd like to know about translational invariance in Computer Vision
+2024-11-13 16:28:38 - __main__ - INFO - Generated query embedding
+2024-11-13 16:28:38 - __main__ - INFO - Found 0 similar papers
+2024-11-13 16:28:38 - __main__ - INFO - Downloading additional papers...
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Paper already exists: 1201.2905v2.pdf
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Paper already exists: 0905.2254v2.pdf
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Paper already exists: 2204.02515v1.pdf
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Paper already exists: 0705.3423v2.pdf
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Paper already exists: 1802.09621v1.pdf
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Paper already exists: 2006.09001v1.pdf
+2024-11-13 16:28:39 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:28:39 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:28:39 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:28:39 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:28:39 - modules.paper_downloader - WARNING - Failed to download 1302.6557v2.pdf: 404
+2024-11-13 16:28:39 - modules.paper_downloader - WARNING - Failed to download 2308.05983v3.pdf: 404
+2024-11-13 16:28:39 - modules.paper_downloader - INFO - Successfully downloaded: 0702009v8.pdf
+2024-11-13 16:28:41 - modules.paper_downloader - INFO - Successfully downloaded: 2404.10897v1.pdf
+2024-11-13 16:28:41 - modules.paper_downloader - INFO - Successfully downloaded 8 out of 10 papers
+2024-11-13 16:28:41 - __main__ - INFO - Downloaded 8 new papers
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 1201.2905v2.pdf
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1201.2905v2_processed.txt
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 0905.2254v2.pdf
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0905.2254v2_processed.txt
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 2204.02515v1.pdf
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2204.02515v1_processed.txt
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 0705.3423v2.pdf
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0705.3423v2_processed.txt
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 0702009v8.pdf
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\0702009v8_processed.txt
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 1802.09621v1.pdf
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\1802.09621v1_processed.txt
+2024-11-13 16:28:41 - modules.pdf_processor - INFO - Processing paper: 2404.10897v1.pdf
+2024-11-13 16:28:42 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2404.10897v1_processed.txt
+2024-11-13 16:28:42 - modules.pdf_processor - INFO - Processing paper: 2006.09001v1.pdf
+2024-11-13 16:28:42 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Cods\research_papers\processed\2006.09001v1_processed.txt
+2024-11-13 16:28:42 - modules.pdf_processor - INFO - Successfully processed 8 out of 8 papers
+2024-11-13 16:28:42 - __main__ - INFO - Processed 8 papers
+2024-11-13 16:28:42 - modules.paper_summarizer - INFO - Starting to process 8 papers
+2024-11-13 16:28:42 - modules.paper_summarizer - INFO - Processing paper 1/8: NegCut: Automatic Image Segmentation based on MRF-MAP
+2024-11-13 16:28:53 - modules.paper_summarizer - INFO - Successfully processed paper 1/8
+2024-11-13 16:28:53 - modules.paper_summarizer - INFO - Processing paper 2/8: On the infinity of infinities of orders of the infinitely large and infinitely small
+2024-11-13 16:28:56 - modules.paper_summarizer - INFO - Successfully processed paper 2/8
+2024-11-13 16:28:56 - modules.paper_summarizer - INFO - Processing paper 3/8: Inferring Rewards from Language in Context
+2024-11-13 16:29:11 - modules.paper_summarizer - INFO - Successfully processed paper 3/8
+2024-11-13 16:29:11 - modules.paper_summarizer - INFO - Processing paper 4/8: Annotations to a certain passage of Descartes for finding the quadrature of the circle
+2024-11-13 16:29:16 - modules.paper_summarizer - INFO - Successfully processed paper 4/8
+2024-11-13 16:29:16 - modules.paper_summarizer - INFO - Processing paper 5/8: Why do we Still Believe in Newton's Law ? Facts, Myths and Methods in Gravitational Physics
+2024-11-13 16:29:31 - modules.paper_summarizer - INFO - Successfully processed paper 5/8
+2024-11-13 16:29:31 - modules.paper_summarizer - INFO - Processing paper 6/8: Simultaneous cores with restrictions and a question of Zaleski and Zeilberger
+2024-11-13 16:29:37 - modules.paper_summarizer - INFO - Successfully processed paper 6/8
+2024-11-13 16:29:37 - modules.paper_summarizer - INFO - Processing paper 7/8: The Future of Research on Social Technologies: CCC Workshop Visioning Report
+2024-11-13 16:29:48 - modules.paper_summarizer - INFO - Successfully processed paper 7/8
+2024-11-13 16:29:48 - modules.paper_summarizer - INFO - Processing paper 8/8: RL-CycleGAN: Reinforcement Learning Aware Simulation-To-Real
+2024-11-13 16:30:01 - modules.paper_summarizer - INFO - Successfully processed paper 8/8
+2024-11-13 16:30:01 - modules.paper_summarizer - INFO - Successfully processed 8 out of 8 papers
+2024-11-13 16:30:01 - __main__ - INFO - Generated summaries for 8 papers
+2024-11-13 16:30:02 - __main__ - INFO - Generated embeddings for summaries
+2024-11-13 16:30:02 - __main__ - ERROR - Error processing research query: 'file_name'
+2024-11-13 16:30:02 - __main__ - ERROR - Error in main: 'file_name'

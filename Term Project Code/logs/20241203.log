@@ -1,0 +1,74 @@
+2024-12-03 19:45:58 - __main__ - INFO - Initializing Research Assistant...
+2024-12-03 19:45:58 - models.vector_store - INFO - Loading existing FAISS index
+2024-12-03 19:45:59 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers
+2024-12-03 19:45:59 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed
+2024-12-03 19:45:59 - __main__ - INFO - Research Assistant initialized successfully
+2024-12-03 19:45:59 - __main__ - INFO - Research Assistant initialized
+2024-12-03 19:46:25 - __main__ - INFO - Processing research query: Catastrophic risk of AI agents
+2024-12-03 19:46:26 - __main__ - INFO - Found 5 similar papers
+2024-12-03 19:46:26 - __main__ - INFO - Downloading additional papers...
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully downloaded: 2206.08966v3.pdf
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully downloaded: 2410.00608v1.pdf
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully downloaded: 2312.04616v1.pdf
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully downloaded: 2206.13353v2.pdf
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully downloaded: 2410.01927v1.pdf
+2024-12-03 19:46:27 - modules.paper_downloader - INFO - Successfully downloaded: 2307.08823v1.pdf
+2024-12-03 19:46:28 - modules.paper_downloader - INFO - Successfully downloaded: 1607.07730v1.pdf
+2024-12-03 19:46:29 - modules.paper_downloader - INFO - Successfully downloaded: 2211.03157v4.pdf
+2024-12-03 19:46:29 - modules.paper_downloader - INFO - Successfully downloaded: 2303.16200v4.pdf
+2024-12-03 19:46:29 - modules.paper_downloader - INFO - Successfully downloaded: 2306.12001v6.pdf
+2024-12-03 19:46:29 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-12-03 19:46:29 - __main__ - INFO - Downloaded 10 new papers
+2024-12-03 19:46:29 - modules.pdf_processor - INFO - Processing paper: 2306.12001v6.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2306.12001v6_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 2206.08966v3.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2206.08966v3_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 2206.13353v2.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2206.13353v2_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 2410.00608v1.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2410.00608v1_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 2211.03157v4.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2211.03157v4_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 2303.16200v4.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2303.16200v4_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 1607.07730v1.pdf
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\1607.07730v1_processed.txt
+2024-12-03 19:46:30 - modules.pdf_processor - INFO - Processing paper: 2307.08823v1.pdf
+2024-12-03 19:46:31 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2307.08823v1_processed.txt
+2024-12-03 19:46:31 - modules.pdf_processor - INFO - Processing paper: 2312.04616v1.pdf
+2024-12-03 19:46:31 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2312.04616v1_processed.txt
+2024-12-03 19:46:31 - modules.pdf_processor - INFO - Processing paper: 2410.01927v1.pdf
+2024-12-03 19:46:31 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2410.01927v1_processed.txt
+2024-12-03 19:46:31 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-12-03 19:46:31 - __main__ - INFO - Processed 10 papers
+2024-12-03 19:46:31 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-12-03 19:46:31 - modules.paper_summarizer - INFO - Processing paper 1/10: An Overview of Catastrophic AI Risks
+2024-12-03 19:46:44 - modules.paper_summarizer - INFO - Successfully processed paper 1/10
+2024-12-03 19:46:44 - modules.paper_summarizer - INFO - Processing paper 2/10: Actionable Guidance for High-Consequence AI Risk Management: Towards Standards Addressing AI Catastrophic Risks
+2024-12-03 19:46:57 - modules.paper_summarizer - INFO - Successfully processed paper 2/10
+2024-12-03 19:46:57 - modules.paper_summarizer - INFO - Processing paper 3/10: Is Power-Seeking AI an Existential Risk?
+2024-12-03 19:47:11 - modules.paper_summarizer - INFO - Successfully processed paper 3/10
+2024-12-03 19:47:11 - modules.paper_summarizer - INFO - Processing paper 4/10: Measurement challenges in AI catastrophic risk governance and safety frameworks
+2024-12-03 19:47:21 - modules.paper_summarizer - INFO - Successfully processed paper 4/10
+2024-12-03 19:47:21 - modules.paper_summarizer - INFO - Processing paper 5/10: Examining the Differential Risk from High-level Artificial Intelligence and the Question of Control
+2024-12-03 19:47:35 - modules.paper_summarizer - INFO - Successfully processed paper 5/10
+2024-12-03 19:47:35 - modules.paper_summarizer - INFO - Processing paper 6/10: Natural Selection Favors AIs over Humans
+2024-12-03 19:47:43 - modules.paper_summarizer - INFO - Successfully processed paper 6/10
+2024-12-03 19:47:43 - modules.paper_summarizer - INFO - Processing paper 7/10: A Model of Pathways to Artificial Superintelligence Catastrophe for Risk and Decision Analysis
+2024-12-03 19:47:56 - modules.paper_summarizer - INFO - Successfully processed paper 7/10
+2024-12-03 19:47:56 - modules.paper_summarizer - INFO - Processing paper 8/10: Risk assessment at AGI companies: A review of popular risk assessment techniques from other safety-critical industries
+2024-12-03 19:48:10 - modules.paper_summarizer - INFO - Successfully processed paper 8/10
+2024-12-03 19:48:10 - modules.paper_summarizer - INFO - Processing paper 9/10: Can apparent bystanders distinctively shape an outcome? Global south countries and global catastrophic risk-focused governance of artificial intelligence
+2024-12-03 19:48:21 - modules.paper_summarizer - INFO - Successfully processed paper 9/10
+2024-12-03 19:48:21 - modules.paper_summarizer - INFO - Processing paper 10/10: Risk Alignment in Agentic AI Systems
+2024-12-03 19:48:35 - modules.paper_summarizer - INFO - Successfully processed paper 10/10
+2024-12-03 19:48:35 - modules.paper_summarizer - INFO - Successfully processed 10 out of 10 papers
+2024-12-03 19:48:35 - __main__ - INFO - Generated summaries for 10 papers
+2024-12-03 19:48:35 - __main__ - INFO - Evaluating summaries...
+2024-12-03 19:49:38 - __main__ - INFO - Saved evaluation results to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\summaries\evaluation_results.csv
+2024-12-03 19:49:38 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\vector_store\faiss_index
+2024-12-03 19:49:38 - models.vector_store - INFO - Successfully stored 9 documents
+2024-12-03 19:49:38 - __main__ - INFO - Stored documents in vector store
+2024-12-03 19:49:39 - __main__ - INFO - Found 5 papers after update
+2024-12-03 19:49:45 - __main__ - INFO - Generated research response

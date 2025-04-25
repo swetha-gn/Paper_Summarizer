@@ -1,0 +1,74 @@
+2024-12-01 21:52:57 - __main__ - INFO - Initializing Research Assistant...
+2024-12-01 21:52:57 - models.vector_store - INFO - Loading existing FAISS index
+2024-12-01 21:52:58 - modules.paper_downloader - INFO - Created/verified output directory: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers
+2024-12-01 21:52:58 - modules.pdf_processor - INFO - Created/verified directories: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers, C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed
+2024-12-01 21:52:58 - __main__ - INFO - Research Assistant initialized successfully
+2024-12-01 21:52:58 - __main__ - INFO - Research Assistant initialized
+2024-12-01 21:53:06 - __main__ - INFO - Processing research query: Tell me about lagrangian point
+2024-12-01 21:53:07 - __main__ - INFO - Found 5 similar papers
+2024-12-01 21:53:07 - __main__ - INFO - Downloading additional papers...
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Successfully found 10 papers matching the query
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 1703.02944v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2306.10906v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2312.05386v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2408.09939v2.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2103.11751v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2308.10825v2.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 1401.1708v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2209.06080v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 0703091v2.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Paper already exists: 2004.00047v1.pdf
+2024-12-01 21:53:08 - modules.paper_downloader - INFO - Successfully downloaded 10 out of 10 papers
+2024-12-01 21:53:08 - __main__ - INFO - Downloaded 10 new papers
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Processing paper: 1703.02944v1.pdf
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\1703.02944v1_processed.txt
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Processing paper: 2306.10906v1.pdf
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2306.10906v1_processed.txt
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Processing paper: 2312.05386v1.pdf
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2312.05386v1_processed.txt
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Processing paper: 2408.09939v2.pdf
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2408.09939v2_processed.txt
+2024-12-01 21:53:08 - modules.pdf_processor - INFO - Processing paper: 2103.11751v1.pdf
+2024-12-01 21:53:09 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2103.11751v1_processed.txt
+2024-12-01 21:53:09 - modules.pdf_processor - INFO - Processing paper: 2308.10825v2.pdf
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2308.10825v2_processed.txt
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Processing paper: 1401.1708v1.pdf
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\1401.1708v1_processed.txt
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Processing paper: 2209.06080v1.pdf
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2209.06080v1_processed.txt
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Processing paper: 0703091v2.pdf
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\0703091v2_processed.txt
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Processing paper: 2004.00047v1.pdf
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Saved processed text to: C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\processed\2004.00047v1_processed.txt
+2024-12-01 21:53:10 - modules.pdf_processor - INFO - Successfully processed 10 out of 10 papers
+2024-12-01 21:53:10 - __main__ - INFO - Processed 10 papers
+2024-12-01 21:53:10 - modules.paper_summarizer - INFO - Starting to process 10 papers
+2024-12-01 21:53:10 - modules.paper_summarizer - INFO - Processing paper 1/10: "Tell me and I forget, teach me and I may remember, involve me and I learn": changing the approach of teaching Computer Organization
+2024-12-01 21:53:15 - modules.paper_summarizer - INFO - Successfully processed paper 1/10
+2024-12-01 21:53:15 - modules.paper_summarizer - INFO - Processing paper 2/10: Magnetoelectric energy in electrodynamics: Magnetoelectricity, bi(an)isotropy, and magnetoelectric meta-atoms
+2024-12-01 21:53:24 - modules.paper_summarizer - INFO - Successfully processed paper 2/10
+2024-12-01 21:53:24 - modules.paper_summarizer - INFO - Processing paper 3/10: Model Extraction Attacks Revisited
+2024-12-01 21:53:33 - modules.paper_summarizer - INFO - Successfully processed paper 3/10
+2024-12-01 21:53:33 - modules.paper_summarizer - INFO - Processing paper 4/10: "Image, Tell me your story!" Predicting the original meta-context of visual misinformation
+2024-12-01 21:53:45 - modules.paper_summarizer - INFO - Successfully processed paper 4/10
+2024-12-01 21:53:45 - modules.paper_summarizer - INFO - Processing paper 5/10: Functional Pearl: Witness Me -- Constructive Arguments Must Be Guided with Concrete Witness
+2024-12-01 21:53:57 - modules.paper_summarizer - INFO - Successfully processed paper 5/10
+2024-12-01 21:53:57 - modules.paper_summarizer - INFO - Processing paper 6/10: Algebraic Topology for Data Scientists
+2024-12-01 21:54:11 - modules.paper_summarizer - INFO - Successfully processed paper 6/10
+2024-12-01 21:54:11 - modules.paper_summarizer - INFO - Processing paper 7/10: A Lagrangian for Hamiltonian vector fields on singular Poisson manifolds
+2024-12-01 21:54:20 - modules.paper_summarizer - INFO - Successfully processed paper 7/10
+2024-12-01 21:54:20 - modules.paper_summarizer - INFO - Processing paper 8/10: Magnetoelectric-field electrodynamics: Search for magnetoelectric point scatterers
+2024-12-01 21:54:36 - modules.paper_summarizer - INFO - Successfully processed paper 8/10
+2024-12-01 21:54:36 - modules.paper_summarizer - INFO - Processing paper 9/10: A scientific inquiry into modern art
+2024-12-01 21:54:39 - modules.paper_summarizer - INFO - Successfully processed paper 9/10
+2024-12-01 21:54:39 - modules.paper_summarizer - INFO - Processing paper 10/10: Grandpa, grandpa, tell me the one about Bitcoin being a safe haven: Evidence from the COVID-19 pandemics
+2024-12-01 21:54:53 - modules.paper_summarizer - INFO - Successfully processed paper 10/10
+2024-12-01 21:54:53 - modules.paper_summarizer - INFO - Successfully processed 10 out of 10 papers
+2024-12-01 21:54:53 - __main__ - INFO - Generated summaries for 10 papers
+2024-12-01 21:54:53 - __main__ - INFO - Evaluating summaries...
+2024-12-01 21:58:03 - __main__ - INFO - Saved evaluation results to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\research_papers\summaries\evaluation_results.csv
+2024-12-01 21:58:04 - models.vector_store - INFO - Saved vector store to C:\Users\Suriya\Documents\UF Class\1st Sem\Python for Data Science\Term Project Code\vector_store\faiss_index
+2024-12-01 21:58:04 - models.vector_store - INFO - Successfully stored 8 documents
+2024-12-01 21:58:04 - __main__ - INFO - Stored documents in vector store
+2024-12-01 21:58:04 - __main__ - INFO - Found 5 papers after update
+2024-12-01 21:58:09 - __main__ - INFO - Generated research response
